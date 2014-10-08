@@ -1,7 +1,7 @@
 <?php
 
 ini_set('default_socket_timeout', -1);
-ini_set('memory_limit', '1024M');
+ini_set('memory_limit', '512M');
 
 //
 // application config
