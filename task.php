@@ -12,7 +12,7 @@ $app_config = array(
     'port' => 6379
   ),
   'file' => array(
-    'name' => './data/bin.dat.large'
+    'name' => './data/bin.dat.small'
   ),
   'result' => array(
     'total' => 0
