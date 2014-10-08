@@ -4,6 +4,34 @@
 
 See and understand publisher/subscriber/aggreator/task.php with my lecture.
 
+## How to use
+
+### launch aggregator
+
+```shell
+php aggregator.php
+# => waiting result...
+```
+
+### launch subscriber
+
+specify channel number(1, 2, etc) as first argument.
+
+```shell
+php subscriber.php 1
+# => subscribe chan-1
+```
+
+### publish
+
+specify number of process(1, 2, etc) as first argument.
+
+```shell
+php publisher.php 2
+# => ...
+```
+
+**!!caution!!** you must launch more subscribers than number of process specified.
 
 ## Practice
 
