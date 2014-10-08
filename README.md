@@ -6,6 +6,13 @@ See and understand publisher/subscriber/aggreator/task.php with my lecture.
 
 ## How to use
 
+### Requirement
+
+- PHP(5.3>=)
+- [phpredis](https://github.com/nicolasff/phpredis)
+
+These packages are already installed in EC2 instance for you :p
+
 ### launch aggregator
 
 ```shell
