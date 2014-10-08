@@ -6,11 +6,9 @@
  */
 require './task.php';
 
-$filesize = filesize($filename) - 1;
-
 $start_time = microtime(true);
 
-$result = run_task("0:$filesize");
+$result = run_task("0:" . $app_config['file']['size']);
 
 $end_time = microtime(true);
 
